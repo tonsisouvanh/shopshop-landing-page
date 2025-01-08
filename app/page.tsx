@@ -144,7 +144,15 @@ export default function Home() {
                     fill="#475569"
                   />
                 </svg>
-                <p className="text-[20px] font-[400] max-sm:text-[16px]">+(856) 20 5533-2207</p>
+                {/* <p className="text-[20px] font-[400] max-sm:text-[16px]">+(856) 20 5533-2207</p> */}
+                <a
+                  className="text-[20px] font-[400] hover:underline max-sm:text-[16px]"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="tel:+8562055332207"
+                >
+                  +(856) 20 5533-2207
+                </a>
               </div>
               <div className="flex items-center gap-[16px]">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
