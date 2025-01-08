@@ -287,8 +287,9 @@ const features = [
         />
       </svg>
     ),
-    title: 'Owned Data',
-    description: "The brand owns the consumer's data from start to finish.",
+    title: 'Data Oversight',
+    description:
+      'The brand ensures complete oversight of consumer data to provide personalized and efficient services.',
   },
   {
     icon: (
@@ -338,6 +339,6 @@ const features = [
       </svg>
     ),
     title: 'CRM',
-    description: 'Create loyalty programs with points and personalized promotions based on customer data.',
+    description: 'Create loyalty programs with points and data driven personalized promotions.',
   },
 ];
