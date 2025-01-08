@@ -43,7 +43,11 @@ export default function Home() {
           </p>
 
           <div className="border-cyan-500d mx-auto flex w-full max-w-[624px] flex-col items-center justify-center gap-[32px] pt-[16px] max-sm:gap-[16px] max-sm:pt-0">
-            <a href="mailto:info@bizgital.com?subject=''&body=''" target="_blank" rel="noopener noreferrer">
+            <a
+              href="mailto:bcid@bizgital.com?subject=Your subject&body=Your message"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button
                 className="h-[86px] w-[304px] gap-[16px] rounded-[90px] bg-[#F04251] text-[36px] font-[600] transition-transform duration-300 hover:scale-110 hover:bg-[#F04251]/80 max-md:h-[52px] max-md:w-[197px] max-md:text-[24px]"
                 size="lg"
