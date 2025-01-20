@@ -1,0 +1,37 @@
+{
+  "HomePage": {
+    "title": "ShopShop - A Commerce Platform Service in Laos",
+    "description": "ShopShop is a cloud-based web app that lets you effortlessly create your online store in Laos with integrated local payments and delivery.",
+    "keywords": "ecommerce, online store, Laos, payments, delivery",
+    "heading": "A COMMERCE PLATFORM SERVICE IN LAOS",
+    "subheading": "ShopShop is a cloud-based web app that lets you effortlessly create your online store in Laos with integrated local payments and delivery. Your customers can shop from any devices.",
+    "emailUs": "EMAIL US",
+    "experienceService": "Experience our service today. Connect with us to explore more and unlock exclusive benefits.",
+    "contactUs": "CONTACT US",
+    "phone": "+(856) 20 5533-2207",
+    "facebook": "facebook.com/shopshop.laos",
+    "email": "bcid@bizgital.com",
+    "Features": {
+      "onlinePayment": {
+        "title": "Online Payment",
+        "description": "Convenient and secure payment, supporting all banks in Laos."
+      },
+      "nationwideDelivery": {
+        "title": "Nationwide Delivery",
+        "description": "Deliver goods to your customers nationwide with a variety of delivery services options."
+      },
+      "dataOversight": {
+        "title": "Data Oversight",
+        "description": "The brand ensures complete oversight of consumer data to provide personalized and efficient services."
+      },
+      "promotion": {
+        "title": "Promotion",
+        "description": "Easily manage promotions on-the-go and integrate them with digital marketing campaigns."
+      },
+      "crm": {
+        "title": "CRM",
+        "description": "Create loyalty programs with points and data driven personalized promotions."
+      }
+    }
+  }
+}
