@@ -85,7 +85,7 @@ export default function Home() {
           <div className="borderd border-yellow-500d flex w-full flex-col items-center justify-between gap-[40px] bg-gradient-to-r py-12 max-md:py-0 lg:flex-row">
             <div className="flex w-auto flex-shrink-0 justify-center">
               <Image
-                src="/images/web_a.png" // Replace with your image path
+                src="/images/web_a.png"
                 alt="Features"
                 width={500}
                 height={500}

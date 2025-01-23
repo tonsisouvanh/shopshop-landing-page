@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     url: 'https://shopshop.la',
     images: [
       {
-        url: '/images/cover_image.png',
+        url: 'https://shopshop.la/images/cover_image.png',
         width: 1200,
         height: 630,
         alt: 'Shopshop.la | CLOUD COMMERCE',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Shopshop.la | CLOUD COMMERCE',
     description: 'A commerce platform service in laos',
-    images: '/images/cover_image.png',
+    images: 'https://shopshop.la/images/cover_image.png',
   },
   verification: {
     google: '8q9rw1ndte5cfcebnb8uy0y3a5k12w',
