@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.shopshop.laos" />
         <meta property="og:title" content={t('title')} />
         <meta property="og:description" content={t('description')} />
-        <meta property="og:image" content="/images/og-image.jpg" />
+        <meta property="og:image" content="/images/cover_image.png" />
         <meta property="og:url" content="https://www.shopshop.laos" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>

@@ -49,8 +49,8 @@ export default function LanguageSwitcher() {
       </SelectTrigger>
       <SelectContent>
         <SelectGroup>
-          <SelectItem value="la">Lao</SelectItem>
-          <SelectItem value="en">English</SelectItem>
+          <SelectItem value="la">LA</SelectItem>
+          <SelectItem value="en">EN</SelectItem>
         </SelectGroup>
       </SelectContent>
     </Select>

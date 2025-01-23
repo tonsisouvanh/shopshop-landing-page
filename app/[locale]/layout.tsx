@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     url: 'https://shopshop.la',
     images: [
       {
-        url: 'https://scontent.fvte2-1.fna.fbcdn.net/v/t39.30808-6/471172522_122095255238701164_1556792149829411800_n.png?_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHWfdJ3D4Q4yieN9vhMH5-Ntam2mvk4eKa1qbaa-Th4pu0DbbMRujHua9zVGKGvOyQhno7Cz6DI_DkSDxjq0non&_nc_ohc=rw-_gKS7lxoQ7kNvgHqBAEl&_nc_zt=23&_nc_ht=scontent.fvte2-1.fna&_nc_gid=AqZ4ixfCvlm7ZPFDaopOp3Y&oh=00_AYA7z4O-uQY6_sg_m0G0_3zdYMebvbnIKym3v8WU1CkPug&oe=677DC9DA',
+        url: '/images/cover_image.png',
         width: 1200,
         height: 630,
         alt: 'Shopshop.la | CLOUD COMMERCE',
@@ -39,8 +39,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Shopshop.la | CLOUD COMMERCE',
     description: 'A commerce platform service in laos',
-    images:
-      'https://scontent.fvte2-1.fna.fbcdn.net/v/t39.30808-6/471172522_122095255238701164_1556792149829411800_n.png?_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHWfdJ3D4Q4yieN9vhMH5-Ntam2mvk4eKa1qbaa-Th4pu0DbbMRujHua9zVGKGvOyQhno7Cz6DI_DkSDxjq0non&_nc_ohc=rw-_gKS7lxoQ7kNvgHqBAEl&_nc_zt=23&_nc_ht=scontent.fvte2-1.fna&_nc_gid=AqZ4ixfCvlm7ZPFDaopOp3Y&oh=00_AYA7z4O-uQY6_sg_m0G0_3zdYMebvbnIKym3v8WU1CkPug&oe=677DC9DA',
+    images: '/images/cover_image.png',
   },
   verification: {
     google: '8q9rw1ndte5cfcebnb8uy0y3a5k12w',
