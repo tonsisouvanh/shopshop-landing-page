@@ -51,8 +51,8 @@ export const ourClients = [
   { name: 'Realthai', logo: '/images/realthai.png', url: 'https://realthai.shopshop.la' },
   { name: 'Aorsorror', logo: '/images/aorsorror.png', url: 'https://aorsorror.shopshop.la' },
   { name: 'Suesut', logo: '/images/suesat.png', url: 'https://suesat.shopshop.la' },
-  { name: 'Jalern', logo: '/images/rosjalern.png', url: 'https://shopshop.la' },
-  { name: 'Normai', logo: '/images/normai.png', url: 'https://shopshop.la' },
-  { name: 'Suanthip', logo: '/images/suanthip.png', url: 'https://shopshop.la' },
+  { name: 'Jalern', logo: '/images/rosjalern.png', url: 'https://chareunros.shopshop.la' },
+  { name: 'Normai', logo: '/images/normai.png', url: 'https://goldensauce.shopshop.la' },
+  { name: 'Suanthip', logo: '/images/suanthip.png', url: 'https://suanthip.shopshop.la' },
   // { name: 'Heineken', logo: '/images/heineken.jpeg' },
 ];
