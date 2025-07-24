@@ -11,7 +11,6 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 
 const poppins = Poppins({ weight: ['100', '200', '300', '400', '500', '600'], subsets: ['latin'] });
-
 const notoSansLao = Noto_Sans_Lao({ weight: ['100', '200', '300', '400', '500', '600'], subsets: ['latin'] });
 
 export const metadata: Metadata = {

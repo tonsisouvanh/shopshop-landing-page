@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import Features from '@/components/features';
 import LanguageSwitcher from '@/components/ui/language-switcher';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
+import { ourClients } from '@/const';
 
 export default function Home() {
   const t = useTranslations('HomePage');
@@ -104,7 +105,7 @@ export default function Home() {
           <div className="w-full">
             <Separator className="bg-[#A1A1AA66]" />
             <ScrollArea className="w-full whitespace-nowrap">
-              <div className="max-xl:justify-centerd justify-betweend flex w-full w-max flex-nowrap items-center gap-[32px] py-10 max-md:gap-[16px] max-md:py-[25px]">
+              <div className="max-xl:justify-centerd justify-betweend flex w-max flex-nowrap items-center gap-[32px] py-10 max-md:gap-[16px] max-md:py-[25px]">
                 {ourClients.map(({ name, logo, url }) => (
                   <div key={name} className="">
                     <a href={url} target="_blank">
@@ -122,27 +123,6 @@ export default function Home() {
               </div>
               <ScrollBar orientation="horizontal" />
             </ScrollArea>
-            {/* <div className="max-xl:justify-centerd justify-betweend flex w-full flex-nowrap items-center gap-[32px] py-10 max-md:gap-[16px] max-md:py-[25px]">
-              {ourClients.map(({ name, logo, url }) => (
-                <div key={name} className="">
-                  <a href={url} target="_blank">
-                    <Image
-                      src={logo}
-                      alt={name}
-                      width={500}
-                      height={500}
-                      className="h-[70px] w-auto max-md:h-[50px]"
-                      // className={
-                      //   ['pureen', 'aorsorror', 'jalern', 'normai', 'suanthip'].includes(name.toLocaleLowerCase())
-                      //     ? 'h-[100px] w-auto max-md:h-[80px]'
-                      //     : 'h-[100px] w-auto max-md:h-[80px]'
-                      // }
-                      sizes="100vw"
-                    />
-                  </a>
-                </div>
-              ))}
-            </div> */}
             <Separator className="bg-[#A1A1AA66]" />
           </div>
 
@@ -220,31 +200,3 @@ export default function Home() {
     </>
   );
 }
-
-// 1.https://aorsorror.shopshop.la
-// 2.https://babybright.shopshop.la
-// 3.http://boya.shopshop.la
-// 4.https://goldensauce.shopshop.la
-// 5.https://keumyon.shopshop.la
-// 6.https://pureen.shopshop.la
-// 7.https://realthai.shopshop.la
-// 8.https://chareunros.shopshop.la
-// 9.https://skynlab.shopshop.la
-// 10.https://suanthip.shopshop.la
-// 11.https://suesat.shopshop.la
-
-const ourClients = [
-  { name: 'Mineral', logo: '/images/mineral.jpeg', url: 'https://mineralwater.la' },
-  { name: 'Baby Bright', logo: '/images/babybright.png', url: 'https://babybright.shopshop.la' },
-  { name: 'Keumyon', logo: '/images/keumyon.png', url: 'https://keumyon.shopshop.la' },
-  { name: 'Skynlab', logo: '/images/skynlab.png', url: 'https://skynlab.shopshop.la' },
-  { name: 'Boya', logo: '/images/boya.png', url: 'http://boya.shopshop.la' },
-  { name: 'Pureen', logo: '/images/pureenv2.png', url: 'https://pureen.shopshop.la' },
-  { name: 'Realthai', logo: '/images/realthai.png', url: 'https://realthai.shopshop.la' },
-  { name: 'Aorsorror', logo: '/images/aorsorror.png', url: 'https://aorsorror.shopshop.la' },
-  { name: 'Suesut', logo: '/images/suesat.png', url: 'https://suesat.shopshop.la' },
-  { name: 'Jalern', logo: '/images/jalern.png', url: 'https://shopshop.la' },
-  { name: 'Normai', logo: '/images/normai.png', url: 'https://shopshop.la' },
-  { name: 'Suanthip', logo: '/images/suanthip.png', url: 'https://shopshop.la' },
-  // { name: 'Heineken', logo: '/images/heineken.jpeg' },
-];

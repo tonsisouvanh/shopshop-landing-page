@@ -39,3 +39,20 @@ export const customReactSelectStyle = {
     color: '#9CA3AF', // Change placeholder color
   }),
 };
+
+// DATA
+export const ourClients = [
+  { name: 'Mineral', logo: '/images/mineral.jpeg', url: 'https://mineralwater.la' },
+  { name: 'Baby Bright', logo: '/images/babybright.png', url: 'https://babybright.shopshop.la' },
+  { name: 'Keumyon', logo: '/images/keumyon.png', url: 'https://keumyon.shopshop.la' },
+  { name: 'Skynlab', logo: '/images/skynlab.png', url: 'https://skynlab.shopshop.la' },
+  { name: 'Boya', logo: '/images/boya.png', url: 'http://boya.shopshop.la' },
+  { name: 'Pureen', logo: '/images/pureenv2.png', url: 'https://pureen.shopshop.la' },
+  { name: 'Realthai', logo: '/images/realthai.png', url: 'https://realthai.shopshop.la' },
+  { name: 'Aorsorror', logo: '/images/aorsorror.png', url: 'https://aorsorror.shopshop.la' },
+  { name: 'Suesut', logo: '/images/suesat.png', url: 'https://suesat.shopshop.la' },
+  { name: 'Jalern', logo: '/images/jalern.png', url: 'https://shopshop.la' },
+  { name: 'Normai', logo: '/images/normai.png', url: 'https://shopshop.la' },
+  { name: 'Suanthip', logo: '/images/suanthip.png', url: 'https://shopshop.la' },
+  // { name: 'Heineken', logo: '/images/heineken.jpeg' },
+];
